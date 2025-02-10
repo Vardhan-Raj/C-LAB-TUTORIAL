@@ -1,0 +1,4 @@
+1. WAP to print the details of cricket players using structure.
+2. WAP to display the grade details of 50 of B-18 using structure
+3. WAP to find out the sum of the two complex no. using structure
+4. WAP to pass a structure of 

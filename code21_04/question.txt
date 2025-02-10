@@ -1,0 +1,7 @@
+WAP to print the central element of a 3*3 matrix or 5*5 matrix
+WAP to find out the sum of the diagonal corner element of a matrix m x n
+WAP to display the lower triangular matrix
+WAP to display the upper triangular matrix
+WAP to find out the sum of diagonal element of a m x n element 
+WAP to swap the array element using pointer without using third variable as following manner A(0)=A(n), A(1)=A(n-1),.......
+WAP to store the array value and print using pointer without using third variable and second array as following manner

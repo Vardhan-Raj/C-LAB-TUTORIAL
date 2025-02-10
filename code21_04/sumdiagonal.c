@@ -1,0 +1,24 @@
+// WAP to find out the sum of diagonal element of a m x n element
+#include<stdio.h>
+// main method
+int main(){
+    int i,j,sum=0;
+    printf("Enter the value of row and column\n");
+    scanf("%d%d",&i, &j);
+    int arr[i][j];
+    for(int m=0;m<i;m++){
+        for(int n=0;n<j;n++){
+            printf("Enter the element of arr[%d][%d]\n",m+1,n+1);
+            scanf("%d",&arr[m][n]);
+        }
+    }
+    for(int m=0;m<i;m++){
+        for(int n=0;n<j;n++){
+            if(m==n){
+                sum+=arr[m][n];
+            }
+        }
+    }
+    printf("The sum of all diagonal element is %d\n",sum);
+    return 0;
+}
